@@ -7,7 +7,7 @@ function intNumberToRobo(userInput){
       arrayOfInts.push(i);
 
       if (i>=10){
-        arrayOfInts.push(i.toString());
+        arrayOfInts.push(i.toString().split(''));
       }
 
   };
