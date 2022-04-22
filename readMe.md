@@ -6,6 +6,10 @@ Test:"Return and array of numbers from 0 from the user's inputted number."
 Code: intNumberToRobo(5);
 Expected Output: [0,1,2,3,4,5]
 
+Test: It will convert double digit numbers to a string. 
+Code: intNumberToRobo(10);
+Expected Output:[0,1,2,3,4,5,6,7,8,9,"10"]
+
 Test: "Return the array replacing the numbers that contain the number 1 with the string 'Beep!'"
 Code:inNumberToRobo(5);
 Expected Output:[0,"Beep!",2,3,4,5]
