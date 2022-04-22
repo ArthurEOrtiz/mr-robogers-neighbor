@@ -5,6 +5,11 @@ function intNumberToRobo(userInput){
 
   for (let i=0; i <= userInput; i+= 1) {
       arrayOfInts.push(i);
+
+      if (i>=10){
+        arrayOfInts.push(i.toString());
+      }
+
   };
   arrayOfInts[1] = "Beep!";
   arrayOfInts[2] = "Boop!";
