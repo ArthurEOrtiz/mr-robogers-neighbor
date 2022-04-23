@@ -1,3 +1,5 @@
+// Buisness Logic 
+
 function intNumberToRobo(userInput){
   let arrayOfInts = [];
 
@@ -12,10 +14,24 @@ function intNumberToRobo(userInput){
         arrayOfInts.splice(i,1,"Boop!");
         } else if (arrayOfInts[i].includes("3") === true) {
         arrayOfInts.splice(i,1,"Won't you be my neighbor?");
+        } else {
+        arrayOfInts[i]= arrayOfInts[i].join('');
         }
       });  
   }
-  return arrayOfInts.flat();
+  return arrayOfInts;
 };
+
+// UI Logic
+$(document).ready(function(){
+  $("#formOne").submit(function(event){
+    event.preventDefault();
+    const userInput = $("#userInput").val();
+    console.log(userInput);
+    $("#output").text(intNumberToRobo(userInput));
+  });
+});
+
+
 
 
