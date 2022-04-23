@@ -1,4 +1,45 @@
-###Tests
+#mr-robogers-neighbor
+
+#### By _**Arthur Edward Ortiz**_
+
+#### _{A web application that takes a number from the user and returns a range of numbers from 0 to the user inputted number with the following substitutions made within the returned range:
+
+* _Numbers that contain a 1: all digits are replaced (all digits) with "Beep!"_
+
+* _Numbers that contain a 2: all digits are replaced (all digits) with "Boop!"_
+* _Numbers that contain a 3: all digits are replaced (all digits) with "Won't you be my neighbor?"_
+
+
+## Technologies Used
+
+* _Java Script_
+* _Jquery_
+* _Bootstrap_
+
+
+## Setup/Installation Requirements
+
+* _Clone this repository to your desktop_
+* _Navigate to the top level of the directory_
+* _Open index.html in your browser_
+
+## Known Bugs
+
+* _None_
+
+
+## License
+
+_MIT_
+
+Copyright (c) _April 22, 2022_ _Arthur Edward Ortiz_
+
+
+
+
+
+
+### Tests
 
 Describe: intNumberToRobo()
 
