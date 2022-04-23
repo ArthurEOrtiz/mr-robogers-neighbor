@@ -27,7 +27,6 @@ $(document).ready(function(){
   $("#formOne").submit(function(event){
     event.preventDefault();
     const userInput = $("#userInput").val();
-    console.log(userInput);
     $("#output").text(intNumberToRobo(userInput));
   });
 });
